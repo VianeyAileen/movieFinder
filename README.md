@@ -3,8 +3,8 @@ Movie Finder is a React app that uses the OMDB API to display different movies a
 
 Visit the app at: https://moviefinder-vianey.netlify.app
 
-<img src="img/movieHome.png" width="49%">
-<img src="img/singleMovie.png" width="49%">
+<img src="img/movieHome.png" width="40%">
+<img src="img/singleMovie.png" width="40%">
 
 
 ## Technologies used 💻
