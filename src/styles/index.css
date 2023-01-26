@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #2c3e50;
+  color: white;
+}
+
+.navbar {
+  float: left;
+  margin-left: 4.5%;
+}
+
+.input-group {
+  float: right;
+  margin-top: 1.5rem;
+  width: 35%;
+  box-shadow: 4px 4px 10px #8a8a8a
+}
+
+.input-group ::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+.input-group input {
+  background: rgba(116, 153, 190, 0.8);
+  border: none;
+}
+
+.input-group button {
+  background: rgba(24, 109, 194, 0.8);
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  background: rgba(116, 153, 190, 0.8);
+  border-radius: 15px;
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.hover :hover {
+  opacity: 50%;
+}
+
+.movie {
+  display: flex;
+}
+
+.single-movie {
+  background: rgba(116, 153, 190, 0.8);
+  border-radius: 15px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.in {
+  font-size: 14px;
+}
+
+.main-info p{
+  margin: 0;
+}
+
+.main-info span {
+  font-size: 12px;
+  margin-left: 2%;
+  padding: 0.4%;
+  border: solid 2px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.6);
+}
+
+.rated {
+  background: #5467CF;
+}
+
+.runtime {
+  background: #6C48B9;
+}
+
+.genre {
+  background: #873AC2;
+}
+
+.secondary-info img{
+  margin: 0.5% 2% 0 2%;
+  width: 3%;
+  height: auto;
+}
+
+.secondary-info p {
+  margin: 0;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
